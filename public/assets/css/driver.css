@@ -1,0 +1,122 @@
+/* Sidebar Styles */
+.sidebar-logo {
+    padding: 10px 0;
+    border-bottom: 1px solid #495057;
+    margin-bottom: 20px;
+}
+
+.sidebar-logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+   
+}
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: #2c3e50;
+    padding-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background 0.3s;
+}
+
+
+.sidebar a:hover {
+    background-color: #1abc9c;
+}
+
+/* Content Area Styles */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    min-height: 100vh;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-left: 250px;
+    background-color: #2980b9;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
+/* Custom Section Visibility */
+#driver-details, #trips-content, #notifications-content {
+    display: none; /* Initially hidden */
+}
+
+/* Additional Custom Styles */
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border-color: #dcdcdc;
+}
+
+.list-group-item:hover {
+    background-color: #e1e5ea;
+}
+
+/* Banner section styling */
+#driverBannerCarousel {
+    margin: 30px 0;
+    width: calc(100% - 220px); /* Ensures the banner fits within the content area */
+    margin-left: 260px; /* Aligns the banner with the content area */
+}
+
+.carousel-item img {
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    border-radius: 5px;
+}
+
